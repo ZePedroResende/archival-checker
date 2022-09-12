@@ -31,7 +31,7 @@ required-features = [ "bench", "proptest" ]
 [dependencies]
 color-eyre = "0.6"
 console-subscriber = { version = "0.1", optional = true }
-criterion = { version = "0.3", optional = true, features = [ "async_tokio" ] }
+criterion = { version = "0.4", optional = true, features = [ "async_tokio" ] }
 eyre = "0.6"
 futures = "0.3"
 hyper = { version = "^0.14.17", features = [ "server", "tcp", "http1", "http2" ] }
